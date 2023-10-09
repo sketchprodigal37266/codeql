@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest-xl
     steps:
       ### Build the queries ###
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Find codeql
         id: find-codeql
         uses: github/codeql-action/init@v2
